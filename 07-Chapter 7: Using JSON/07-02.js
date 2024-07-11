@@ -1,0 +1,12 @@
+const salesReport = {
+  coffeeSales: [
+    {
+      blendName: "Arabica",
+      cupsSold: "120"
+    },
+    {
+      blendName: "Robusta",
+      cupsSold: "242"
+    }
+  ]
+}

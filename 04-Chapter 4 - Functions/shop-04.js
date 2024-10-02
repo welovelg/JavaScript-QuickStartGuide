@@ -11,7 +11,7 @@ let menuList = document.getElementById("coffee-menu")
 // Loop through the inventory and display each item in the menu list
 function populateMenu(container) {
     for (let i = 0; i < inventory.length; i++) {
-        container.innerHTML += "<li>" + inventory[i] + " - $" + inventoryPrices[i] + "</li>"
+        container.innerHTML += "<li>" + inventory[i] + " - $" + inventoryPrices[i].toFixed(2) + "</li>"
     }
 }
 

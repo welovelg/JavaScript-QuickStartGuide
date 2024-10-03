@@ -11,7 +11,7 @@ let menu = {
     },
     populate: function(container) {
         for (let item in this.inventory) {
-            let price = this.inventory[item]
+            let price = this.inventory[item].toFixed(2)
             
             // Create a new li element
             let li = document.createElement("li")

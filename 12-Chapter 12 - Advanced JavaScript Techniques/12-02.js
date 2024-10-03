@@ -18,7 +18,7 @@ function getCookie(name) {
           let cookie = cookieArray[i]
 
           // Remove any leading spaces using a regular expression
-          cookie = cookie.replace(/^\s+/, '')
+          cookie = cookie.replace(/^\s+/, "")
 
           // If cookie is found, return its value
           if (cookie.indexOf(cookieName) === 0) { 

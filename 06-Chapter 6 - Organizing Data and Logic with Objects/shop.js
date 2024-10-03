@@ -12,7 +12,7 @@ let menu = {
 	populate: function(container) {
 		for (let item in this.inventory) {
 			let price = this.inventory[item]
-			container.innerHTML += "<li>" + item + " - $" + price + "</li>"
+			container.innerHTML += "<li>" + item + " - $" + price.toFixed(2) + "</li>"
 		}
 	}
 }

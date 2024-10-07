@@ -80,14 +80,14 @@ const mainMenu = {
         ul.style.padding = "1em"
         ul.style.fontSize = "1.25em"
 
-	      // Build the menu
+	// Build the menu
         for (let link in links) {
 
           // Create the needed elements
           let li = document.createElement("li")
           let a = document.createElement("a")
 
-	        // Make sure the link is readable
+	  // Make sure the link is readable
           a.style.color = linkColor
 
           // Hide the dot
@@ -108,7 +108,7 @@ const mainMenu = {
               if (link == "Home") {
                 newPage = "main"
               } else {
-	              // Otherwise, set lowercase version of the new page name
+	        // Otherwise, set lowercase version of the new page name
     	         newPage = link.toLocaleLowerCase()                    	
               }
 
@@ -123,7 +123,7 @@ const mainMenu = {
               // Set the currentPage variable to the new page
               currentPage = newPage 
             })
-			    }
+	}
 
           // Add the list item (li) to the unordered list (ul) with the link
           li.appendChild(a)
